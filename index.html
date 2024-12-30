@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sport Tournament - Home</title>
+    <!-- ========== All Css Link Here ===== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ========== Navbar Area Start  -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <!-- ====== Logo Here  -->
+          <img src="images/logo.png" alt="logo" />
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+        <div class="d-flex nav_icon">
+          <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </nav>
+    <!-- ========== Navbar Area End  -->
+    <!-- ========== Banner Area Start  -->
+    <section id="banner_area">
+      <a href="#">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="banner_area">
+                <h3>tournament name</h3>
+                <h5 class="banner_status">Status : Ongoing</h5>
+                <div class="d-flex">
+                  <form action="#" method="post" class="d-flex banner_form">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="city name"
+                    />
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="beginner"
+                    />
+                  </form>
+                </div>
+                <div class="banner_overlay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </section>
+    <section id="banner_bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="detuls">Details block</h3>
+            <p class="detuils_bio">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure
+              sed doloremque nisi et consectetur nam, perspiciatis consequatur
+              voluptates provident.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="sch_text">
+              <div class="d-flex justify-content-evenly">
+                <h3 class="sch_text_title1 w-50 text-center">
+                  <a href="#"
+                    ><i class="fa fa-calendar-minus-o" aria-hidden="true"></i>
+                    Schedule</a
+                  >
+                </h3>
+                <h3 class="sch_text_title2 w-50 text-center">
+                  <a href="#"
+                    ><i class="fa fa-comments-o" aria-hidden="true"></i>
+                    Discussion</a
+                  >
+                </h3>
+              </div>
+              <div class="d-flex">
+                <h3 class="sch_text_title3 w-50 text-center">
+                  <a href="#"
+                    ><i class="fa fa-map-marker" aria-hidden="true"></i> Sports
+                    Groups</a
+                  >
+                </h3>
+                <h3 class="sch_text_title4 w-50 text-center">
+                  <a href="#"
+                    ><i class="fa fa-users" aria-hidden="true"></i> Teams</a
+                  >
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== Banner Area End  -->
+    <!-- League Table Start -->
+    <section id="league_table">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="league_table">
+              <h3 class="league_table_title">League Table</h3>
+              <div class="league_tb">
+                <table>
+                  <tr class="tb_header">
+                    <th class="row_id">#</th>
+                    <th>Takim</th>
+                    <th>O</th>
+                    <th>G</th>
+                    <th>B</th>
+                    <th>M</th>
+                  </tr>
+                  <tr class="clickable-row" data-href="#">
+                    <td class="row_id">1</td>
+                    <td>Team 1</td>
+                    <td>12</td>
+                    <td>30</td>
+                    <td>10</td>
+                    <td>1</td>
+                  </tr>
+                  <tr class="clickable-row" data-href="#">
+                    <td class="row_id">2</td>
+                    <td>Team 2</td>
+                    <td>10</td>
+                    <td>25</td>
+                    <td>5</td>
+                    <td>0</td>
+                  </tr>
+                  <tr class="clickable-row" data-href="#">
+                    <td class="row_id">3</td>
+                    <td>Team 3</td>
+                    <td>8</td>
+                    <td>28</td>
+                    <td>6</td>
+                    <td>0</td>
+                  </tr>
+                  <tr class="clickable-row" data-href="#">
+                    <td class="row_id">4</td>
+                    <td>Team 4</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>5</td>
+                    <td>0</td>
+                  </tr>
+                </table>
+              </div>
+              <h3 class="league_table_title">weeks schedule card</h3>
+              <div class="d-flex weeks_number justify-content-between">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#" class="weeks_num_dis">4</a>
+                <a href="#" class="weeks_num_dis">5</a>
+                <a href="#" class="weeks_num_dis">6</a>
+                <a href="#" class="weeks_num_dis">7</a>
+                <a href="#">8</a>
+                <a href="#">9</a>
+                <a href="#">10</a>
+              </div>
+              <div class="weeks_table_header mt-2 pt-1">
+                <div class="d-flex justify-content-evenly">
+                  <p class="w-50 text-center">Quarter Final</p>
+                  <span>12/12/2024</span>
+                  <a href="#"
+                    ><i class="fa fa-search" aria-hidden="true"></i
+                  ></a>
+                </div>
+                <div class="kela_list_table">
+                  <table class="w-100 bg-white">
+                    <tr class="bg_darkk">
+                      <th style="width: 60%"></th>
+                      <th>Result</th>
+                      <th>Set1</th>
+                      <th>Set2</th>
+                      <th>Set3</th>
+                    </tr>
+                    <tr class="clickable-row" data-href="#">
+                      <td>
+                        <img
+                          src="images/colombia.png"
+                          alt="flag"
+                          width="20px"
+                          height="20px"
+                          class="me-1 ms-2"
+                        /><span> M.</span> Colombia
+                      </td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                    </tr>
+                    <tr class="clickable-row" data-href="#">
+                      <td>
+                        <img
+                          src="images/colombia.png"
+                          alt="flag"
+                          width="20px"
+                          height="20px"
+                          class="me-1 ms-2"
+                        /><span> M.</span> Colombia
+                      </td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="kela_list_table mt-3">
+                  <table class="w-100 bg-white">
+                    <tr class="bg_darkk">
+                      <th style="width: 60%"></th>
+                      <th>Result</th>
+                      <th>Set1</th>
+                      <th>Set2</th>
+                      <th>Set3</th>
+                    </tr>
+                    <tr class="clickable-row" data-href="#">
+                      <td>
+                        <img
+                          src="images/colombia.png"
+                          alt="flag"
+                          width="20px"
+                          height="20px"
+                          class="me-1 ms-2"
+                        /><span> M.</span> Colombia
+                      </td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                    </tr>
+                    <tr class="clickable-row" data-href="#">
+                      <td>
+                        <img
+                          src="images/colombia.png"
+                          alt="flag"
+                          width="20px"
+                          height="20px"
+                          class="me-1 ms-2"
+                        /><span> M.</span> Colombia
+                      </td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                      <td><h3 class="text-center bg_darkk me-1">4</h3></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <h3 class="league_table_title">Play off card</h3>
+              <a class="league_table_titlee text-center d-block"
+                >display /hide play off bracket button</a
+              >
+              <div class="main_slider mt-3">
+                <div class="slider_items">
+                  <div class="right_scrollable">
+                    <h3 class="league_table_title text-center mb-2 mt-1">Quarter Final</h3>
+                    <div class="screen_one">
+                      <div class="d-flex justify-content-evenly">
+                        <p class="w-50 text-center">Quarter Final</p>
+                        <span>12/12/2024</span>
+                        <a href="#"
+                          ><i class="fa fa-search" aria-hidden="true"></i
+                        ></a>
+                      </div>
+                      <div class="kela_list_table">
+                        <table class="w-100 bg-white">
+                          <tr class="bg_darkk">
+                            <th style="width: 80%"></th>
+                            <th>Result</th>
+                          </tr>
+                          <tr class="clickable-row" data-href="#">
+                            <td class="d-flex">
+                              <img
+                                src="images/colombia.png"
+                                alt="flag"
+                                width="20px"
+                                height="20px"
+                                class="me-1 ms-2"
+                              /><span> M.</span> Colombia
+                            </td>
+                            <td>
+                              <h3 class="text-center bg_darkk me-1">4</h3>
+                            </td>
+                          </tr>
+                          <tr class="clickable-row" data-href="#">
+                            <td class="d-flex">
+                              <img
+                                src="images/colombia.png"
+                                alt="flag"
+                                width="20px"
+                                height="20px"
+                                class="me-1 ms-2"
+                              /><span> M.</span> Colombia
+                            </td>
+                            <td>
+                              <h3 class="text-center bg_darkk me-1">4</h3>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="screen_two mt-3">
+                      <div class="d-flex justify-content-evenly">
+                        <p class="w-50 text-center">Quarter Final</p>
+                        <span>12/12/2024</span>
+                        <a href="#"
+                          ><i class="fa fa-search" aria-hidden="true"></i
+                        ></a>
+                      </div>
+                      <div class="kela_list_table">
+                        <table class="w-100 bg-white">
+                          <tr class="bg_darkk">
+                            <th style="width: 80%"></th>
+                            <th>Result</th>
+                          </tr>
+                          <tr class="clickable-row" data-href="#">
+                            <td class="d-flex">
+                              <img
+                                src="images/colombia.png"
+                                alt="flag"
+                                width="20px"
+                                height="20px"
+                                class="me-1 ms-2"
+                              /><span> M.</span> Colombia
+                            </td>
+                            <td>
+                              <h3 class="text-center bg_darkk me-1">4</h3>
+                            </td>
+                          </tr>
+                          <tr class="clickable-row" data-href="#">
+                            <td class="d-flex">
+                              <img
+                                src="images/colombia.png"
+                                alt="flag"
+                                width="20px"
+                                height="20px"
+                                class="me-1 ms-2"
+                              /><span> M.</span> Colombia
+                            </td>
+                            <td>
+                              <h3 class="text-center bg_darkk me-1">4</h3>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="screen_two mt-5">
+                      <div class="d-flex justify-content-evenly">
+                        <p class="w-50 text-center">Quarter Final</p>
+                        <span>12/12/2024</span>
+                        <a href="#"
+                          ><i class="fa fa-search" aria-hidden="true"></i
+                        ></a>
+                      </div>
+                      <div class="kela_list_table">
+                        <table class="w-100 bg-white">
+                          <tr class="bg_darkk">
+                            <th style="width: 80%"></th>
+                            <th>Result</th>
+                          </tr>
+                          <tr class="clickable-row" data-href="#">
+                            <td class="d-flex">
+                              <img
+                                src="images/colombia.png"
+                                alt="flag"
+                                width="20px"
+                                height="20px"
+                                class="me-1 ms-2"
+                              /><span> M.</span> Colombia
+                            </td>
+                            <td>
+                              <h3 class="text-center bg_darkk me-1">4</h3>
+                            </td>
+                          </tr>
+                          <tr class="clickable-row" data-href="#">
+                            <td class="d-flex">
+                              <img
+                                src="images/colombia.png"
+                                alt="flag"
+                                width="20px"
+                                height="20px"
+                                class="me-1 ms-2"
+                              /><span> M.</span> Colombia
+                            </td>
+                            <td>
+                              <h3 class="text-center bg_darkk me-1">4</h3>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="screen_two mt-3">
+                      <div class="d-flex justify-content-evenly">
+                        <p class="w-50 text-center">Quarter Final</p>
+                        <span>12/12/2024</span>
+                        <a href="#"
+                          ><i class="fa fa-search" aria-hidden="true"></i
+                        ></a>
+                      </div>
+                      <div class="kela_list_table">
+                        <table class="w-100 bg-white">
+                          <tr class="bg_darkk">
+                            <th style="width: 80%"></th>
+                            <th>Result</th>
+                          </tr>
+                          <tr class="clickable-row" data-href="#">
+                            <td class="d-flex">
+                              <img
+                                src="images/colombia.png"
+                                alt="flag"
+                                width="20px"
+                                height="20px"
+                                class="me-1 ms-2"
+                              /><span> M.</span> Colombia
+                            </td>
+                            <td>
+                              <h3 class="text-center bg_darkk me-1">4</h3>
+                            </td>
+                          </tr>
+                          <tr class="clickable-row" data-href="#">
+                            <td class="d-flex">
+                              <img
+                                src="images/colombia.png"
+                                alt="flag"
+                                width="20px"
+                                height="20px"
+                                class="me-1 ms-2"
+                              /><span> M.</span> Colombia
+                            </td>
+                            <td>
+                              <h3 class="text-center bg_darkk me-1">4</h3>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider_items pb-5">
+                  <div class="right_scrollable mt-5 mb-5">
+                    <h3 class="league_table_title text-center mt-5 ">SemiFinal</h3>
+                    <div class="screen_one ">
+                      <div class="d-flex justify-content-evenly">
+                        <p class="w-50 text-center">Quarter Final</p>
+                        <span>12/12/2024</span>
+                        <a href="#"
+                          ><i class="fa fa-search" aria-hidden="true"></i
+                        ></a>
+                      </div>
+                      <div class="kela_list_table">
+                        <table class="w-100 bg-white">
+                          <tr class="bg_darkk">
+                            <th style="width: 80%"></th>
+                            <th>Result</th>
+                          </tr>
+                          <tr class="clickable-row" data-href="#">
+                            <td class="d-flex">
+                              <img
+                                src="images/colombia.png"
+                                alt="flag"
+                                width="20px"
+                                height="20px"
+                                class="me-1 ms-2"
+                              /><span> M.</span> Colombia
+                            </td>
+                            <td>
+                              <h3 class="text-center bg_darkk me-1">4</h3>
+                            </td>
+                          </tr>
+                          <tr class="clickable-row" data-href="#">
+                            <td class="d-flex">
+                              <img
+                                src="images/colombia.png"
+                                alt="flag"
+                                width="20px"
+                                height="20px"
+                                class="me-1 ms-2"
+                              /><span> M.</span> Colombia
+                            </td>
+                            <td>
+                              <h3 class="text-center bg_darkk me-1">4</h3>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="screen_two mt-5 pt-5">
+                      <div class="d-flex justify-content-evenly">
+                        <p class="w-50 text-center">Quarter Final</p>
+                        <span>12/12/2024</span>
+                        <a href="#"
+                          ><i class="fa fa-search" aria-hidden="true"></i
+                        ></a>
+                      </div>
+                      <div class="kela_list_table">
+                        <table class="w-100 bg-white">
+                          <tr class="bg_darkk">
+                            <th style="width: 80%"></th>
+                            <th>Result</th>
+                          </tr>
+                          <tr class="clickable-row" data-href="#">
+                            <td class="d-flex">
+                              <img
+                                src="images/colombia.png"
+                                alt="flag"
+                                width="20px"
+                                height="20px"
+                                class="me-1 ms-2"
+                              /><span> M.</span> Colombia
+                            </td>
+                            <td>
+                              <h3 class="text-center bg_darkk me-1">4</h3>
+                            </td>
+                          </tr>
+                          <tr class="clickable-row" data-href="#">
+                            <td class="d-flex">
+                              <img
+                                src="images/colombia.png"
+                                alt="flag"
+                                width="20px"
+                                height="20px"
+                                class="me-1 ms-2"
+                              /><span> M.</span> Colombia
+                            </td>
+                            <td>
+                              <h3 class="text-center bg_darkk me-1">4</h3>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider_items mb-5 pb-5">
+                  <div class="right_scrollable mt-5 pt-5 mb-5 pb-5">
+                    <h3 class="league_table_title text-center mt-5 pt-5"> Final</h3>
+                    <div class="screen_one ">
+                      <div class="d-flex justify-content-evenly">
+                        <p class="w-50 text-center">Quarter Final</p>
+                        <span>12/12/2024</span>
+                        <a href="#"
+                          ><i class="fa fa-search" aria-hidden="true"></i
+                        ></a>
+                      </div>
+                      <div class="kela_list_table">
+                        <table class="w-100 bg-white">
+                          <tr class="bg_darkk">
+                            <th style="width: 80%"></th>
+                            <th>Result</th>
+                          </tr>
+                          <tr class="clickable-row" data-href="#">
+                            <td class="d-flex">
+                              <img
+                                src="images/colombia.png"
+                                alt="flag"
+                                width="20px"
+                                height="20px"
+                                class="me-1 ms-2"
+                              /><span> M.</span> Colombia
+                            </td>
+                            <td>
+                              <h3 class="text-center bg_darkk me-1">4</h3>
+                            </td>
+                          </tr>
+                          <tr class="clickable-row" data-href="#">
+                            <td class="d-flex">
+                              <img
+                                src="images/colombia.png"
+                                alt="flag"
+                                width="20px"
+                                height="20px"
+                                class="me-1 ms-2"
+                              /><span> M.</span> Colombia
+                            </td>
+                            <td>
+                              <h3 class="text-center bg_darkk me-1">4</h3>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- League Table End -->
+     <footer>
+        <a href="#">Sport tournaments all rights are reserved</a>
+     </footer>
+    <!-- ========== All Js Link Here ===== -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      document.querySelectorAll(".clickable-row").forEach((row) => {
+        row.addEventListener("click", () => {
+          window.location.href = row.getAttribute("data-href");
+        });
+      });
+    </script>
+  </body>
+</html>
