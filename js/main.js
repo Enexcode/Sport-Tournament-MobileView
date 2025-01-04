@@ -1,4 +1,4 @@
-$('.main_slider').slick({
+$('.main_slider1').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,

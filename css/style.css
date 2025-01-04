@@ -140,6 +140,11 @@ a{
     text-align: center;
     color: #192126;
     background-color: #ffffff;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 23px;
+    overflow: hidden; /* Ensures rounded corners */
+    padding: 10px;
 }
 .league_tb .tb_header{
     width: 100%;
@@ -147,6 +152,10 @@ a{
     border-radius: 23px;
     color: #192126;
 }
+.league_tb table tr.clickable-row:hover{
+    background-color: #bcf24623;
+}
+
 .league_tb .tb_header th{
     padding: 8px 0px;
 }
@@ -163,9 +172,10 @@ a{
 .row_id{
     color: #0D99FF;
 }
-.league_tb{
-    background-color: #192126;
-    padding: 3px;
+.league_tb {
+	background-color: #E3EADF;
+	padding: 7px;
+	border-radius: 23px;
 }
 .weeks_number a{
     font-size: 16px;
@@ -190,7 +200,7 @@ a{
     padding: 5px;
 }
 .right_scrollable{
-    background-color: #E6E6E6;
+    /* background-color: #E6E6E6; */
     border-top-left-radius: 23px;
     border-top-right-radius: 23px;
     padding: 5px;
@@ -273,4 +283,206 @@ footer a{
     color: #FFFFFF;
     text-align: center;
     display: block;
+}
+.banner_area_two h4{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+    color: #192126; 
+    margin-top: 11px;  
+}
+.tour_card {
+    border-radius: 23px;
+    padding: 5px;
+}
+.card_dis h3{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #192126;
+    margin-bottom: 0px;
+}
+.card_dis span{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #19212680;
+}
+.card_dis .card_btn a{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #192126;
+    margin-right: 10px;
+}
+.tour_card .card_top{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;   
+    position: absolute;
+    right: 40px;
+    top: 0;
+    background-color: #192126;
+    padding: 4px 10px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.main_title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #192126;
+    margin-top: 13px;
+}
+.status_card{
+    background-color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 26px;
+}
+.card_view i{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #192126;
+    margin-right: 10px;
+}
+.card_view h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #192126;
+    margin-right: 20px;
+}
+.card_view h2{
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 21.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #192126;
+}
+.stutas_main{
+    background-color: #F7F7F7;
+    padding: 10px;
+    border-radius: 22px;
+}
+.card_view_one{
+    border-bottom:  1px solid #58585A;
+    padding-bottom: 20px;
+}
+.nolog_banner_text h3{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #192126;
+    margin-bottom: 0;
+}
+.nolog_banner_text span{
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #192126B2;
+    background-color: #F1F1F1;
+    padding: 3px 5px;
+    display: inline;
+}
+.nolog_banner img{
+    margin-right: 15px;
+}
+.nolog_banner{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 9px;
+}
+.nolog_dis{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #192126;
+    margin-top: 8px;
+}
+.my_nolog_box{
+    
+}
+.first_slide_arrow{
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px !important;
+
+}
+.ml_200px{
+    margin-left: 200px;
+}
+.main_slider{
+    overflow-x: scroll !important;
+}
+.slider_items{
+    width: 100vh;
+}
+.right_scrollable {
+	width: 320px !important;
+	position: relative !important;
+	left: 0;
+}
+.bor_red{
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+.main_slider{
+    background-color: #ffffff;
+}
+.big_gap{
+    height: 280px;
+    width: 10px;
+}
+.big_pd{
+    padding-bottom: 250px !important;
+}
+.first_slide_arrow2{
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+}
+.mt_topp{
+    padding-top: 400px;
 }
