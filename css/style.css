@@ -437,9 +437,7 @@ footer a{
     color: #192126;
     margin-top: 8px;
 }
-.my_nolog_box{
-    
-}
+
 .first_slide_arrow{
     position: absolute;
     left: 100%;
@@ -507,3 +505,232 @@ footer a{
 	margin-bottom: 0px;
 	margin-left: 5px;
 }
+.my_nolog_box{
+    background-color: #BBF246;
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+    position: relative;
+    padding: 5px;
+}
+.my_nolog_box.daks{
+    background-color: #192126;
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+    position: relative;
+    padding: 5px;
+}
+.my_nolog_box img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.my_nolog_box p{
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #192126;
+    z-index: 99;
+}
+.daks p{
+    color: #ffffff;
+}
+.nolog_dis{
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+.audio-wave {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px; /* Gap between bars */
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .bar {
+    width: 4px;
+    background-color: #e74c3c;
+    border-radius: 2px; /* For rounded edges */
+    animation: wave 1s infinite ease-in-out;
+  }
+  
+  .bar:nth-child(1) { height: 10px; animation-delay: -0.9s; }
+  .bar:nth-child(2) { height: 15px; animation-delay: -0.8s; }
+  .bar:nth-child(3) { height: 20px; animation-delay: -0.7s; }
+  .bar:nth-child(4) { height: 25px; animation-delay: -0.6s; }
+  .bar:nth-child(5) { height: 30px; animation-delay: -0.5s; }
+  .bar:nth-child(6) { height: 20px; animation-delay: -0.4s; }
+  .bar:nth-child(7) { height: 15px; animation-delay: -0.3s; }
+  .bar:nth-child(8) { height: 10px; animation-delay: -0.2s; }
+  .bar:nth-child(9) { height: 15px; animation-delay: -0.1s; }
+  .bar:nth-child(10) { height: 20px; animation-delay: 0s; }
+  .bar:nth-child(11) { height: 25px; animation-delay: 0.1s; }
+  .bar:nth-child(12) { height: 30px; animation-delay: 0.2s; }
+  .bar:nth-child(13) { height: 25px; animation-delay: 0.3s; }
+  .bar:nth-child(14) { height: 20px; animation-delay: 0.4s; }
+  .bar:nth-child(15) { height: 15px; animation-delay: 0.5s; }
+  .bar:nth-child(16) { height: 10px; animation-delay: 0.6s; }
+  
+  .last_card {
+	background-color: #e74d3c4b;
+	padding: 30px 10px;
+	border-radius: 20px;
+	display: inline-block;
+	width: 96%;
+}
+.last_card img.last_icon{
+    background-color: #e74c3c;
+    width: 40px;
+    height: auto;
+    padding: 3px;
+    border-radius: 5px;
+}
+.last_card h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #191D1A;    
+    margin-left: 8px;
+    padding-top: 3px;
+}
+  
+.last_card2{
+    background-color: #1B2026;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.last_card2 img.last_icon{
+    background-color: #ffffff;
+    width: 40px;
+    height: auto;
+    padding: 3px;
+    border-radius: 5px;
+}
+.last_card2 h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;    
+    margin-left: 8px;
+    padding-top: 3px;
+}
+  
+.last_card3{
+    background-color: #ECE2FD;
+	padding: 30px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 96%;
+}
+.last_card3 img.last_icon{
+    background-color: #D2BCF4;
+    width: 40px;
+    height: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+.last_card3 h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1B2026;    
+    margin-left: 8px;
+    padding-top: 3px;
+}
+
+.last_card3 .audio-wave {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px; /* Space between bars */
+    background-color: transparent;
+  }
+  
+ .last_card3 .bar {
+    width: 8px;
+    background-color: #4a335a; /* Dark purple color */
+    border-radius: 6px; /* Rounded edges */
+    animation: wave 1s infinite ease-in-out;
+  }
+  
+  .last_card3 .bar:nth-child(1) { height: 10px; animation-delay: -0.8s; }
+  .last_card3 .bar:nth-child(2) { height: 15px; animation-delay: -0.7s; }
+  .last_card3 .bar:nth-child(3) { height: 20px; animation-delay: -0.6s; }
+  .last_card3 .bar:nth-child(4) { height: 25px; animation-delay: -0.5s; }
+  .last_card3 .bar:nth-child(5) { height: 30px; animation-delay: -0.4s; }
+  .last_card3 .bar:nth-child(6) { height: 20px; animation-delay: -0.3s; }
+  .last_card3 .bar:nth-child(7) { height: 15px; animation-delay: -0.2s; }
+  .last_card3 .bar:nth-child(8) { height: 10px; animation-delay: -0.1s; }
+  .last_card3 .bar:nth-child(9) { height: 15px; animation-delay: 0s; }
+  .last_card3 .bar:nth-child(10) { height: 20px; animation-delay: 0.1s; }
+  .last_card3 .bar:nth-child(11) { height: 25px; animation-delay: 0.2s; }
+  .last_card3 .bar:nth-child(12) { height: 30px; animation-delay: 0.3s; }
+
+  .last_card4{
+    background-color: #DBE5EB;
+	padding:10px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 96%;
+  }
+.last_card4 h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1B2026;    
+    margin-left: 8px;
+    padding-top: 3px;
+}
+
+
+.progress-circle {
+    width: 120px;
+    height: 120px;
+    position: relative;
+  }
+  
+  .circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(
+      #87c5e6 0% 80%,  /* Light blue for 80% */
+      #ffffff 80% 100% /* White for the rest */
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .circle span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; /* Text color */
+    position: absolute;
+    z-index: 2;
+  }
