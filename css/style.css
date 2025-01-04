@@ -359,7 +359,7 @@ footer a{
     border-radius: 26px;
 }
 .card_view i{
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 600;
     line-height: 21.6px;
     text-align: left;
@@ -368,18 +368,18 @@ footer a{
     color: #192126;
     margin-right: 10px;
 }
-.card_view h3{
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 21.6px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #192126;
-    margin-right: 20px;
+.card_view h3 {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 21.6px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #192126;
+	margin-right: 10px;
 }
 .card_view h2{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 900;
     line-height: 21.6px;
     text-align: left;
@@ -392,9 +392,9 @@ footer a{
     padding: 10px;
     border-radius: 22px;
 }
-.card_view_one{
-    border-bottom:  1px solid #58585A;
-    padding-bottom: 20px;
+.card_view_one {
+	border-bottom: 1px solid #58585A;
+	padding-bottom: 10px;
 }
 .nolog_banner_text h3{
     font-size: 14px;
@@ -485,4 +485,25 @@ footer a{
 }
 .mt_topp{
     padding-top: 400px;
+}
+.navbar-brand{
+    background-color: #BBF246;
+    border-radius: 43px;
+    padding: 6px 16px;
+}
+.navbar-brand img{
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+}
+.navbar-brand p {
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #192126;
+	margin-bottom: 0px;
+	margin-left: 5px;
 }
